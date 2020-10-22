@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Whatsapp ChatBot</string>
+    <string name="zero">\u0030\u20E3</string>
+    <string name="one">\u0031\u20E3</string>
+    <string name="two">\u0032\u20E3</string>
+    <string name="three">\u0033\u20E3</string>
+    <string name="four">\u0034\u20E3</string>
+    <string name="five">\u0035\u20E3</string>
+    <string name="six">\u0036\u20E3</string>
+    <string name="seven">\u0037\u20E3</string>
+    <string name="eight">\u0038\u20E3</string>
+    <string name="nine">\u0039\u20E3</string>
+    <string name="box"></string>
+</resources>

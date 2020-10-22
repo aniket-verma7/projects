@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#000"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/SplashTheme">
+
+    <EditText
+        android:id="@+id/edtName"
+        android:editable="false"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:background="@drawable/shaping"
+        android:ems="10"
+        android:fontFamily="monospace"
+        android:inputType="textPersonName"
+        android:padding="15dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFF"
+        android:textColorHint="#FFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.232" />
+
+    <EditText
+        android:id="@+id/edtIn"
+        android:editable="false"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:background="@drawable/shaping"
+        android:ems="10"
+        android:fontFamily="monospace"
+
+        android:inputType="textPersonName"
+        android:padding="15dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#2EFF09"
+        android:textColorHint="#FFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.383" />
+
+
+
+    <EditText
+        android:id="@+id/edtOut"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:background="@drawable/shaping"
+        android:ems="10"
+        android:fontFamily="monospace"
+        android:editable="false"
+
+        android:inputType="textPersonName"
+        android:padding="15dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#F60202"
+        android:textColorHint="#FFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.53" />
+
+    <EditText
+        android:id="@+id/edtNet"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:background="@drawable/shaping"
+        android:editable="false"
+        android:ems="10"
+        android:fontFamily="monospace"
+        android:inputType="textPersonName"
+        android:padding="15dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFF"
+        android:textColorHint="#FFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.679" />
+
+    <TextView
+        android:id="@+id/txtNet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Net Amount"
+        android:textColor="#FFFFFF"
+        android:textSize="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/edtNet"
+        app:layout_constraintEnd_toEndOf="@+id/edtNet"
+        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintStart_toStartOf="@+id/edtNet"
+        app:layout_constraintTop_toTopOf="@+id/edtNet"
+        app:layout_constraintVertical_bias="0.163" />
+
+    <TextView
+        android:id="@+id/txtNet2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Debit"
+        android:textColor="#FFFFFF"
+        android:textSize="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/edtOut"
+        app:layout_constraintEnd_toEndOf="@+id/edtOut"
+        app:layout_constraintHorizontal_bias="0.042"
+        app:layout_constraintStart_toStartOf="@+id/edtOut"
+        app:layout_constraintTop_toTopOf="@+id/edtOut"
+        app:layout_constraintVertical_bias="0.15" />
+
+    <TextView
+        android:id="@+id/txtNet3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Credit"
+        android:textColor="#FFFFFF"
+        android:textSize="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/edtIn"
+        app:layout_constraintEnd_toEndOf="@+id/edtIn"
+        app:layout_constraintHorizontal_bias="0.042"
+        app:layout_constraintStart_toStartOf="@+id/edtIn"
+        app:layout_constraintTop_toTopOf="@+id/edtIn"
+        app:layout_constraintVertical_bias="0.163" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

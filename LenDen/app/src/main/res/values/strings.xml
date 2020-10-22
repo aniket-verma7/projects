@@ -1,0 +1,7 @@
+<resources>
+
+    <string name="title_activity_start">StartActivity</string>
+    <string name="title_home">Accounts</string>
+    <string name="title_dashboard">Dashboard</string>
+
+</resources>
